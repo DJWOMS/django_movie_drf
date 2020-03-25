@@ -28,8 +28,9 @@ __pycache__/
 .pyc
 *.pyc
 
-media/*
 !*media
+media/*
+
 
 log/debug.log
 
