@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     'djoser',
+    'drf_yasg',
 
     'django_filters',
 
@@ -209,6 +210,7 @@ CKEDITOR_CONFIGS = {
     }
 }
 
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.TokenAuthentication',
@@ -218,14 +220,6 @@ REST_FRAMEWORK = {
         'django_filters.rest_framework.DjangoFilterBackend',
     ),
 }
-
-# smtp
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'djangosc876@gmail.com'
-EMAIL_HOST_PASSWORD = 'F00dz!#0'
-EMAIL_PORT = 587
-
 
 DJOSER = {
     'PASSWORD_RESET_CONFIRM_URL': '#/password/reset/confirm/{uid}/{token}',
@@ -261,3 +255,10 @@ SIMPLE_JWT = {
     'SLIDING_TOKEN_LIFETIME': timedelta(minutes=5),
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
+
+# smtp
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'djangosc876@gmail.com'
+EMAIL_HOST_PASSWORD = 'F00dz!#0'
+EMAIL_PORT = 587
