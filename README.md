@@ -4,14 +4,14 @@
     </a>
 </p>
 
-<h2 align="center">Django Movie</h2>
+<h2 align="center">Django Movie - Django Rest Framework</h2>
 
 [Сайт](https://djangochannel.com)
 [YouTube](https://www.youtube.com/channel/UC_hPYclmFCIENpMUHpPY8FQ?view_as=subscriber)
 
-Кинобиблиотека на Django 3.
+Кинобиблиотека на Django Rest Framework.
 
-Проект написан в рамках обучающего курса по Django 3 на youtube.
+Проект написан в рамках обучающего курса по Django Rest Framework на youtube.
 
 - Категории
 - Жанры
