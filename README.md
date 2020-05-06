@@ -7,7 +7,7 @@
 <h2 align="center">Django Movie - Django Rest Framework</h2>
 
 [Сайт](https://djangochannel.com)
-[YouTube](https://www.youtube.com/channel/UC_hPYclmFCIENpMUHpPY8FQ?view_as=subscriber)
+[YouTube](https://www.youtube.com/playlist?list=PLF-NY6ldwAWqSxUpnTBObEP21cFQxNJ7C)
 
 Кинобиблиотека на Django Rest Framework.
 
