@@ -20,7 +20,9 @@ class ActorViewSet(viewsets.ViewSet):
         queryset = Actor.objects.all()
         actor = get_object_or_404(queryset, pk=pk)
         serializer = ActorDetailSerializer(actor)
+        # print(self.retrieve.u)
         return Response(serializer.data)
+
 
 
 class ActorReadOnly(viewsets.ReadOnlyModelViewSet):
@@ -40,6 +42,8 @@ class ActorModelViewSet(viewsets.ModelViewSet):
     def example(self, request, *args, **kwargs):
         actor = self.get_object()
         serializer = ActorDetailSerializer(actor)
+        print(self.reverse_action('highlight'))
+        self.reverse_action("actor", args=['1']),
         return Response(serializer.data)
 
     # def get_permissions(self):

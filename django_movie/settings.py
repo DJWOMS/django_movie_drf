@@ -276,6 +276,6 @@ SIMPLE_JWT = {
 # smtp
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'djangosc876@gmail.com'
-EMAIL_HOST_PASSWORD = 'F00dz!#0'
+EMAIL_HOST_USER = 'exp6@gmail.com'
+EMAIL_HOST_PASSWORD = '111111111'
 EMAIL_PORT = 587
