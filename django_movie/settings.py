@@ -242,6 +242,8 @@ REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': (
         'django_filters.rest_framework.DjangoFilterBackend',
     ),
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 1
 }
 
 DJOSER = {
@@ -283,6 +285,6 @@ SIMPLE_JWT = {
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'frrr6@gmail.com'
-EMAIL_HOST_PASSWORD = '111111'
+EMAIL_HOST_USER = '22222226@gmail.com'
+EMAIL_HOST_PASSWORD = '11111'
 EMAIL_PORT = 587
