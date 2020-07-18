@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  dm_db:
+    image: postgres:10.1-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+  dm_web:
+    build: .
+    command: python /usr/src/dm_rest/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/usr/src/dm_rest
+    ports:
+      - 8000:8000
+    depends_on:
+      - dm_db
+
+volumes:
+  postgres_data:
