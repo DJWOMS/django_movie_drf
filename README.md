@@ -22,4 +22,6 @@
 - Отзывы
 - Фильтры
 
+docker exec -it dm_movie python ./manage.py  createsuperuser
+
 
