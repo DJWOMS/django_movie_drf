@@ -24,7 +24,7 @@ services:
   nginx:
     build: ./nginx
     ports:
-      - 1337:80
+      - 80:80
     volumes:
       - static_volume:/home/app/web/staticfiles
       - media_volume:/home/app/web/media
